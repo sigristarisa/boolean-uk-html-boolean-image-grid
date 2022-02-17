@@ -6,17 +6,17 @@ footer {
   background-color: rgb(2, 21, 53);
 }
 
+header {
+  position: fixed;
+  top: 0;
+}
+
 main {
   min-height: calc(100vh - 120px);
   margin: 60px;
 }
 
 /* --- MAIN STYLES --- */
-/* Header */
-header {
-  position: fixed;
-  top: 0;
-}
 
 .logo {
   max-height: 100%;
@@ -46,8 +46,10 @@ header {
 }
 
 .social-media-icon-container {
-  display: flex;
-  justify-content: flex-end;
+  display: grid;
+  grid-template-columns: repeat(2, 30px);
+  gap: 5px;
+  justify-content: end;
 }
 
 .social-media-icon-container > img {
