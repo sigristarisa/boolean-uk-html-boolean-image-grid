@@ -6,7 +6,7 @@ footer {
 }
 
 main {
-  height: calc(100vh - 120px);
+  min-height: calc(100vh - 120px);
 }
 
 /* --- MAIN STYLES --- */
@@ -16,13 +16,13 @@ main {
 }
 
 .cards-wrapper {
-  width: 1000px;
+  max-width: 1000px;
+  min-height: 100vh;
   padding: 20px;
-  border: red solid 2px;
 }
 
 .card {
-  width: 250px;
+  width: 200px;
   border: black solid 1px;
   border-radius: 15px;
 }
