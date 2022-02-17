@@ -1,3 +1,16 @@
-body {
-  background-color: red;
+/* BASE STYLES */
+header,
+footer {
+  height: 60px;
+  background-color: rgb(2, 21, 53);
+}
+
+main {
+  height: calc(100vh - 120px);
+}
+
+/* --- MAIN STYLES --- */
+/* Header */
+.logo {
+  max-height: 100%;
 }
