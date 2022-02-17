@@ -22,7 +22,7 @@ main {
 }
 
 .hero-image-container {
-  width: 1000px;
+  max-width: 1000px;
 }
 
 .hero-image-container > img {
