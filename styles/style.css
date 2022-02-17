@@ -13,13 +13,22 @@ header {
 
 main {
   min-height: calc(100vh - 120px);
-  margin: 60px;
+  padding-top: 100px;
 }
 
 /* --- MAIN STYLES --- */
 
 .logo {
   max-height: 100%;
+}
+
+.hero-image-container {
+  width: 1000px;
+}
+
+.hero-image-container > img {
+  object-fit: cover;
+  max-width: 100%;
 }
 
 .cards-wrapper {
