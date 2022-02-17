@@ -8,3 +8,10 @@
   place-items: center;
   gap: 10px;
 }
+
+.social-media-icon-container {
+  display: grid;
+  grid-template-columns: repeat(2, 40px);
+  gap: 5px;
+  justify-content: end;
+}

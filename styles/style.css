@@ -17,7 +17,6 @@ main {
 }
 
 /* --- MAIN STYLES --- */
-
 .logo {
   max-height: 100%;
 }
@@ -52,13 +51,6 @@ main {
 
 .card-bottom-container {
   padding: 20px;
-}
-
-.social-media-icon-container {
-  display: grid;
-  grid-template-columns: repeat(2, 30px);
-  gap: 5px;
-  justify-content: end;
 }
 
 .social-media-icon-container > img {
