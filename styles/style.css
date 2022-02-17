@@ -1,4 +1,4 @@
-/* BASE STYLES */
+/* --- BASE STYLES --- */
 header,
 footer {
   height: 60px;
@@ -13,4 +13,38 @@ main {
 /* Header */
 .logo {
   max-height: 100%;
+}
+
+.cards-wrapper {
+  width: 1000px;
+  padding: 20px;
+  border: red solid 2px;
+}
+
+.card {
+  width: 250px;
+  border: black solid 1px;
+  border-radius: 15px;
+}
+
+.card > img {
+  object-fit: cover;
+  max-width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-bottom-container {
+  padding: 20px;
+}
+
+.social-media-icon-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-media-icon-container > img {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
 }
